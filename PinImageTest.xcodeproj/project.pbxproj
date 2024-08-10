@@ -11,6 +11,13 @@
 		8DAA963A2C6779AA00DE662B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA96392C6779AA00DE662B /* ContentView.swift */; };
 		8DAA963C2C6779AB00DE662B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAA963B2C6779AB00DE662B /* Assets.xcassets */; };
 		8DAA96402C6779AB00DE662B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAA963F2C6779AB00DE662B /* Preview Assets.xcassets */; };
+		8DAA964C2C677AF100DE662B /* PinchAndZoomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA964B2C677AF100DE662B /* PinchAndZoomModifier.swift */; };
+		8DAA964F2C677AFF00DE662B /* GeometryProxy-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA964D2C677AFF00DE662B /* GeometryProxy-Extension.swift */; };
+		8DAA96502C677AFF00DE662B /* MapImagePinSmall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA964E2C677AFF00DE662B /* MapImagePinSmall.swift */; };
+		8DAA96532C677B2700DE662B /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA96512C677B2700DE662B /* ContentView2.swift */; };
+		8DAA96542C677B2700DE662B /* SwiftUIImageZoomViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA96522C677B2700DE662B /* SwiftUIImageZoomViewer.swift */; };
+		8DAA96562C677B3900DE662B /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA96552C677B3900DE662B /* ContentView3.swift */; };
+		8DAA96582C677B4900DE662B /* ContentView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA96572C677B4900DE662B /* ContentView4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		8DAA963B2C6779AB00DE662B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DAA963D2C6779AB00DE662B /* PinImageTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PinImageTest.entitlements; sourceTree = "<group>"; };
 		8DAA963F2C6779AB00DE662B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DAA964B2C677AF100DE662B /* PinchAndZoomModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinchAndZoomModifier.swift; sourceTree = "<group>"; };
+		8DAA964D2C677AFF00DE662B /* GeometryProxy-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GeometryProxy-Extension.swift"; sourceTree = "<group>"; };
+		8DAA964E2C677AFF00DE662B /* MapImagePinSmall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapImagePinSmall.swift; sourceTree = "<group>"; };
+		8DAA96512C677B2700DE662B /* ContentView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		8DAA96522C677B2700DE662B /* SwiftUIImageZoomViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIImageZoomViewer.swift; sourceTree = "<group>"; };
+		8DAA96552C677B3900DE662B /* ContentView3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
+		8DAA96572C677B4900DE662B /* ContentView4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +66,14 @@
 		8DAA96362C6779AA00DE662B /* PinImageTest */ = {
 			isa = PBXGroup;
 			children = (
+				8DAA96472C6779EC00DE662B /* Scenario 1 */,
+				8DAA96482C6779FA00DE662B /* Scenario 2 */,
+				8DAA96492C677A0500DE662B /* Scenario 3 */,
+				8DAA964A2C677A1000DE662B /* Scenario 4 */,
 				8DAA96372C6779AA00DE662B /* PinImageTestApp.swift */,
-				8DAA96392C6779AA00DE662B /* ContentView.swift */,
 				8DAA963B2C6779AB00DE662B /* Assets.xcassets */,
+				8DAA964D2C677AFF00DE662B /* GeometryProxy-Extension.swift */,
+				8DAA964E2C677AFF00DE662B /* MapImagePinSmall.swift */,
 				8DAA963D2C6779AB00DE662B /* PinImageTest.entitlements */,
 				8DAA963E2C6779AB00DE662B /* Preview Content */,
 			);
@@ -67,6 +86,40 @@
 				8DAA963F2C6779AB00DE662B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DAA96472C6779EC00DE662B /* Scenario 1 */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA96392C6779AA00DE662B /* ContentView.swift */,
+				8DAA964B2C677AF100DE662B /* PinchAndZoomModifier.swift */,
+			);
+			path = "Scenario 1";
+			sourceTree = "<group>";
+		};
+		8DAA96482C6779FA00DE662B /* Scenario 2 */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA96512C677B2700DE662B /* ContentView2.swift */,
+				8DAA96522C677B2700DE662B /* SwiftUIImageZoomViewer.swift */,
+			);
+			path = "Scenario 2";
+			sourceTree = "<group>";
+		};
+		8DAA96492C677A0500DE662B /* Scenario 3 */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA96552C677B3900DE662B /* ContentView3.swift */,
+			);
+			path = "Scenario 3";
+			sourceTree = "<group>";
+		};
+		8DAA964A2C677A1000DE662B /* Scenario 4 */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA96572C677B4900DE662B /* ContentView4.swift */,
+			);
+			path = "Scenario 4";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +192,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DAA964F2C677AFF00DE662B /* GeometryProxy-Extension.swift in Sources */,
 				8DAA963A2C6779AA00DE662B /* ContentView.swift in Sources */,
+				8DAA964C2C677AF100DE662B /* PinchAndZoomModifier.swift in Sources */,
+				8DAA96542C677B2700DE662B /* SwiftUIImageZoomViewer.swift in Sources */,
+				8DAA96532C677B2700DE662B /* ContentView2.swift in Sources */,
 				8DAA96382C6779AA00DE662B /* PinImageTestApp.swift in Sources */,
+				8DAA96582C677B4900DE662B /* ContentView4.swift in Sources */,
+				8DAA96562C677B3900DE662B /* ContentView3.swift in Sources */,
+				8DAA96502C677AFF00DE662B /* MapImagePinSmall.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +344,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -322,7 +382,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
