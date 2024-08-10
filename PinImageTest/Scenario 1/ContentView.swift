@@ -47,7 +47,11 @@ struct ContentView: View {
                     .foregroundColor(.green)
                     .position(tapLocation)
                 
-                // Test pins
+                // Test pins (loading stored pins)
+                mapImagePinSmall()
+                    .foregroundColor(.orange)
+                    .position(x: 1419, y: 1225)
+
                 mapImagePinSmall()
                     .foregroundColor(.red)
                     .position(x: 776, y: 1150)

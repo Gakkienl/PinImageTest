@@ -12,7 +12,7 @@ struct PinImageToImageTestApp: App {
     var body: some Scene {
         WindowGroup {
             // Scenario 1
-            //ContentView()
+            ContentView()
             
             // Scenario 2
             //ContentView2()
@@ -21,7 +21,7 @@ struct PinImageToImageTestApp: App {
             // ContentView3()
             
             // Scenario 4 (preferred)
-            ContentView4()
+            //ContentView4()
         }
     }
 }
